@@ -1,0 +1,25 @@
+5.answer:
+<?php
+
+$number = 5;  
+$f = 1; 
+
+for ($i=1; $i <= $number; $i++) {  
+  $f = $f * $i;  
+} 
+echo "Factorial of $number is $f";  
+?>
+4.answer:
+middleware is a filtering system by using it we can filter each request,it is similar as guards.
+main purpose of middleware is inspecting each request.
+3.answer:
+i handle validation using laravel validate method also i would make request class for validation
+2.answer:
+Laravel migrations enable developers to easily create, delete, and modify database.
+i can say it is version control system of our application database schema.
+1.answer:
+MVC meaning Model View Controller
+Model represent database table it interact with database
+Controller is middleman between controller and view.
+View is user interface which is only visible to the end users.
+
